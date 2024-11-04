@@ -1,0 +1,168 @@
+[
+    {
+        "id": 1,
+        "product_title": "iPhone 14 Pro",
+        "img": "https://i.ibb.co/K5Nqj6g/aditya-chinchure-CCqf-ZOeu8-Oo-unsplash.jpg",
+        "category": "Smartphones",
+        "price": 999.99,
+        "description": "Apple iPhone 14 Pro with 6.1-inch Super Retina XDR display, A16 Bionic chip, and 48MP main camera.",
+        "Specification": [
+            "6.1-inch Super Retina XDR display",
+            "A16 Bionic chip",
+            "48MP main camera",
+            "5G enabled",
+            "128GB storage"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "id": 2,
+        "product_title": "Samsung Galaxy S23",
+        "img": "https://i.ibb.co/vHP6qJ4/pexels-zana-latif-2772032-15493878.jpg",
+        "category": "Smartphones",
+        "price": 849.99,
+        "description": "Samsung Galaxy S23 with 6.1-inch Dynamic AMOLED 2X display, Snapdragon 8 Gen 2, and 50MP camera.",
+        "Specification": [
+            "6.1-inch Dynamic AMOLED 2X",
+            "Snapdragon 8 Gen 2",
+            "50MP triple camera",
+            "5G enabled",
+            "128GB storage"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "id": 3,
+        "product_title": "MacBook Air M2",
+        "img": "https://i.ibb.co/CwLZjSb/pexels-elvis-1316342-2528117.jpg",
+        "category": "Laptops",
+        "price": 1199.99,
+        "description": "Apple MacBook Air with M2 chip, 13.6-inch Liquid Retina display, and 18-hour battery life.",
+        "Specification": [
+            "13.6-inch Liquid Retina display",
+            "Apple M2 chip",
+            "8GB RAM",
+            "256GB SSD storage",
+            "Up to 18 hours battery life"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "id": 4,
+        "product_title": "Dell XPS 13",
+        "img": "https://i.ibb.co/thT71ZT/dell-xps-13.webp",
+        "category": "Laptops",
+        "price": 999.99,
+        "description": "Dell XPS 13 with Intel Core i7 processor, 13.4-inch FHD+ display, and 512GB SSD.",
+        "Specification": [
+            "13.4-inch FHD+ display",
+            "Intel Core i7",
+            "16GB RAM",
+            "512GB SSD",
+            "Up to 12 hours battery life"
+        ],
+        "availability": false,
+        "rating": 4.6
+    },
+    {
+        "id": 5,
+        "product_title": "Apple AirPods Pro (2nd Gen)",
+        "img": "https://i.ibb.co/wL8CnWH/apple-secound-gen-2.jpg",
+        "category": "Accessories",
+        "price": 249.99,
+        "description": "Apple AirPods Pro with active noise cancellation and personalized spatial audio.",
+        "Specification": [
+            "Active noise cancellation",
+            "Personalized spatial audio",
+            "Up to 6 hours of listening time",
+            "MagSafe charging case"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "id": 6,
+        "product_title": "Samsung Galaxy Watch 5",
+        "img": "https://i.ibb.co/D7btvQ1/galaxy-watch-5-pro.webp",
+        "category": "Accessories",
+        "price": 279.99,
+        "description": "Samsung Galaxy Watch 5 with AMOLED display, fitness tracking, and long battery life.",
+        "Specification": [
+            "1.4-inch AMOLED display",
+            "Fitness tracking",
+            "Sleep analysis",
+            "Up to 50 hours battery life"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "id": 7,
+        "product_title": "Google Pixel 7 Pro",
+        "img": "https://i.ibb.co/C2cTmH7/pixel-7-pro.jpg",
+        "category": "Smartphones",
+        "price": 899.99,
+        "description": "Google Pixel 7 Pro with 6.7-inch OLED display, Google Tensor G2 chip, and 50MP triple camera system.",
+        "Specification": [
+            "6.7-inch OLED display",
+            "Google Tensor G2 chip",
+            "50MP triple camera",
+            "5G enabled",
+            "128GB storage"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "id": 8,
+        "product_title": "Lenovo ThinkPad X1 Carbon Gen 10",
+        "img": "https://i.ibb.co/G33Y54K/lanovo-x1-gen-10.webp",
+        "category": "Laptops",
+        "price": 1349.99,
+        "description": "Lenovo ThinkPad X1 Carbon with Intel Core i7, 14-inch FHD display, and 16GB RAM.",
+        "Specification": [
+            "14-inch FHD display",
+            "Intel Core i7 processor",
+            "16GB RAM",
+            "512GB SSD",
+            "Military-grade durability"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "id": 9,
+        "product_title": "Apple Magic Keyboard",
+        "img": "https://i.ibb.co/vJ8nxLj/apple-keyboard.jpg",
+        "category": "Accessories",
+        "price": 99.99,
+        "description": "Apple Magic Keyboard with Bluetooth connectivity, rechargeable battery, and a sleek design.",
+        "Specification": [
+            "Bluetooth connectivity",
+            "Rechargeable battery",
+            "Compact and lightweight",
+            "Compatible with macOS and iPadOS"
+        ],
+        "availability": false,
+        "rating": 4.4
+    },
+    {
+        "id": 10,
+        "product_title": "Sony WH-1000XM5 Wireless Headphones",
+        "img": "https://i.ibb.co/1vn56q4/sony-wired-less-headphone.jpg",
+        "category": "Accessories",
+        "price": 349.99,
+        "description": "Sony WH-1000XM5 with industry-leading noise cancellation and 30 hours of battery life.",
+        "Specification": [
+            "Industry-leading noise cancellation",
+            "Up to 30 hours battery life",
+            "Quick charging (3 min charge = 3 hours playback)",
+            "Multipoint connection support"
+        ],
+        "availability": true,
+        "rating": 4.9
+    }
+]
