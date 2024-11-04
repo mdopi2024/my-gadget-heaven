@@ -10,5 +10,10 @@
 
 body{
     font-family: "Sora", sans-serif;
-    background-color: rgba(128, 128, 128, 0.089);
+    background-color: rgba(128, 128, 128, 0.233);
+    min-height: 100vh;
 }
+   
+
+
+    
