@@ -17,7 +17,7 @@ const Card = ({ product }) => {
                     <h2 className="card-title">{product_title}</h2>
                     <p className='font-bold'>Rating : {rating}</p>
                     <h2 className='font-bold'>Price : $ {price}</h2>
-                    <Link to='/statics' className='bg-sky-500 text-center text-white font-bold py-2 rounded-2xl'> View Details</Link>
+                    <Link to={`/details/${id}`} className='bg-sky-500 text-center text-white font-bold py-2 rounded-2xl'> View Details</Link>
                 </div>
             </div>
 

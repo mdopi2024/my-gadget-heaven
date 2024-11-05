@@ -6,6 +6,7 @@ import Statics from "../pages/Statics";
 import DeshBoard from "../pages/DeshBoard";
 import Dynamic from "../components/Dynamic";
 import AllData from "../components/AllData";
+import Deatiles from "../components/Deatiles";
 
 
 
@@ -40,6 +41,11 @@ const router = createBrowserRouter([
         {
             path:'/deshboard',
             element:<DeshBoard></DeshBoard>
+        },
+        {
+            path:'/details/:id',
+            element:<Deatiles></Deatiles>,
+            loader:()=>fetch('/allData.json')
         },
 
       ]
