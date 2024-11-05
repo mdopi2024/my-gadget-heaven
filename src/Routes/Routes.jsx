@@ -16,12 +16,12 @@ const router = createBrowserRouter([
         {
             path:'/',
             element:<Home></Home>,
-            loader:()=>fetch('./category.json'),
+            loader:()=>fetch('/category.json'),
             children:[
               {
                 path:'/category/:category',
                 element:<Dynamic></Dynamic>,
-                loader:()=>fetch('../allData.json')
+                loader:()=>fetch('/allData.json')
               }
             ]
         },
