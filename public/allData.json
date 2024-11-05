@@ -3,7 +3,7 @@
         "id": 1,
         "product_title": "iPhone 14 Pro",
         "img": "https://i.ibb.co/K5Nqj6g/aditya-chinchure-CCqf-ZOeu8-Oo-unsplash.jpg",
-        "category": "Smartphones",
+        "category": "Phone",
         "price": 999.99,
         "description": "Apple iPhone 14 Pro with 6.1-inch Super Retina XDR display, A16 Bionic chip, and 48MP main camera.",
         "Specification": [
@@ -20,7 +20,7 @@
         "id": 2,
         "product_title": "Samsung Galaxy S23",
         "img": "https://i.ibb.co/vHP6qJ4/pexels-zana-latif-2772032-15493878.jpg",
-        "category": "Smartphones",
+        "category": "Phone",
         "price": 849.99,
         "description": "Samsung Galaxy S23 with 6.1-inch Dynamic AMOLED 2X display, Snapdragon 8 Gen 2, and 50MP camera.",
         "Specification": [
@@ -37,7 +37,7 @@
         "id": 3,
         "product_title": "MacBook Air M2",
         "img": "https://i.ibb.co/CwLZjSb/pexels-elvis-1316342-2528117.jpg",
-        "category": "Laptops",
+        "category": "Mac book",
         "price": 1199.99,
         "description": "Apple MacBook Air with M2 chip, 13.6-inch Liquid Retina display, and 18-hour battery life.",
         "Specification": [
@@ -103,7 +103,7 @@
         "id": 7,
         "product_title": "Google Pixel 7 Pro",
         "img": "https://i.ibb.co/C2cTmH7/pixel-7-pro.jpg",
-        "category": "Smartphones",
+        "category": "Phone",
         "price": 899.99,
         "description": "Google Pixel 7 Pro with 6.7-inch OLED display, Google Tensor G2 chip, and 50MP triple camera system.",
         "Specification": [

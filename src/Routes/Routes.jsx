@@ -4,6 +4,9 @@ import MainLayOut from "../MainlayOut/MainLayOut";
 import Home from "../pages/Home";
 import Statics from "../pages/Statics";
 import DeshBoard from "../pages/DeshBoard";
+import Dynamic from "../components/Dynamic";
+
+
 
 const router = createBrowserRouter([
     {
@@ -12,7 +15,15 @@ const router = createBrowserRouter([
       children:[
         {
             path:'/',
-            element:<Home></Home>
+            element:<Home></Home>,
+            loader:()=>fetch('./category.json'),
+            children:[
+              {
+                path:'/category/:category',
+                element:<Dynamic></Dynamic>,
+                loader:()=>fetch('../allData.json')
+              }
+            ]
         },
         
         {
