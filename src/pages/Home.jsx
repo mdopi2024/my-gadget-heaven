@@ -12,10 +12,10 @@ const Home = () => {
           <h2 className='text-3xl text-center mb-10 md:text-4xl'>Explore Cutting-Edge Gadgets</h2>
           
          <div className='grid gap-5  grid-cols-1 md:grid-cols-12'>
-          <div className='col-span-2'>
+          <div className='md:col-span-2'>
             <Category></Category>
           </div>
-          <div className='col-span-10 mb-10'>
+          <div className='md:col-span-10 mb-10'>
               <Outlet></Outlet>
           </div>
          </div>
