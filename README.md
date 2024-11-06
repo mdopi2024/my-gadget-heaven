@@ -1,8 +1,22 @@
-# React + Vite
+#  Gadget Heaven
+## Live website Linek : 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Requirement Document Link 
+- https://github.com/.../blob/main/Batch-10_Assignment-08.pdf
 
-Currently, two official plugins are available:
+## React Fundamental concepts used in the project
+- uesLoaderData()
+- useParams()
+- <NaveLinK></NavLink>
+- <LinK></Link>
+- Dynamic Data Load
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## handling and managing data :
+### Local storage
+
+##  5 features of your website/project 
+- "When the home button is clicked, the home page will be displayed."
+- "When the stastic button is clicked, the stastic page will be displayed."
+- "When the deshborar button is clicked, the deshboard page will be displayed."
+- "when the view all button clicked the a new page will open and displayed product details"
+- "when the Add to card button clicked then card will added in the soping card

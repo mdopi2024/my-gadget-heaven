@@ -13,8 +13,8 @@ const DeshBoard = () => {
          <p>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
          </div>
          <div>
-            <NavLink to=''  className={ ({isActive})=>`border border-white px-5 py-2 rounded-xl text-white ${isActive? '!bg-white text-purple-900':''}`}>Card</NavLink>
-            <NavLink to='wishlist'  className={ ({isActive})=>`border border-white px-5 py-2 rounded-xl text-white  ${isActive? '!bg-white text-purple-900':''}`}>Wishlist</NavLink>
+            <NavLink to=''  className={ ({isActive})=>`border border-white px-5 py-2 rounded-xl text-white ${isActive?'!bg-gray-300':''}`}>Card</NavLink>
+            <NavLink to='wishlist'  className={ ({isActive})=>`border border-white px-5 py-2 rounded-xl text-white  ${isActive?'!bg-gray-300':''} `}>Wishlist</NavLink>
          </div>
 
         </div>
