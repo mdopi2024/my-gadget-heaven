@@ -1,9 +1,12 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { NavLink, Outlet } from 'react-router-dom';
+import Healmate from '../components/Healmate';
 
 const DeshBoard = () => {
     return (
         <div>
+          <Healmate title={'Deshboard'}></Healmate>
           <div className='bg-[#9538E2] text-center  pb-8 rounded-xl relative border   flex flex-col justify-center items-center'>
          <div className='md:w-3/4  p-10  mx-auto text-white space-y-4 '>
          <h3 className='text-3xl md:text-4xl'>Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h3>
