@@ -7,8 +7,8 @@
 ## React Fundamental concepts used in the project
 - uesLoaderData()
 - useParams()
-- <NaveLinK></NavLink>
-- <LinK></Link>
+- NavLink
+- Link
 - Dynamic Data Load
 
 ## handling and managing data :
