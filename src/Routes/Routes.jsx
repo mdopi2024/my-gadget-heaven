@@ -10,6 +10,7 @@ import Deatiles from "../components/Deatiles";
 import DeshBoardCard from "../components/DeshBoardCard";
 import Wishlist from "../components/Wishlist";
 import UpComing from "../pages/UpComing";
+import ErrorPage from "../components/ErrorPage";
 
 
 
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
     {
       path: "/",
       element: <MainLayOut></MainLayOut>,
+      errorElement:<ErrorPage></ErrorPage>,
       children:[
         {
             path:'/',

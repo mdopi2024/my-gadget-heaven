@@ -5,7 +5,7 @@ const Statics = () => {
     return (
         <div>
           <Healmate title={'Stastic'}></Healmate>
-          I am statics   
+          <h1 className='text-4xl text-purple-600 text-center my-20'>There is no Data available</h1>
         </div>
     );
 };

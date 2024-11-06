@@ -12,9 +12,9 @@ const DeshBoard = () => {
          <h3 className='text-3xl md:text-4xl'>Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h3>
          <p>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
          </div>
-         <div>
-            <NavLink to=''  className={ ({isActive})=>`border border-white px-5 py-2 rounded-xl text-white ${isActive?'!bg-yellow-300':''}`}>Card</NavLink>
-            <NavLink to='wishlist'  className={ ({isActive})=>`border border-white px-5 py-2 rounded-xl text-white  ${isActive?'!bg--300':''} `}>Wishlist</NavLink>
+         <div className='flex gap-4'>
+            <NavLink to=''  className='border border-white px-5 py-2 rounded-xl text-white'>Card</NavLink>
+            <NavLink to='wishlist' className='border border-white px-5 py-2 rounded-xl text-white'>Wishlist</NavLink>
          </div>
 
         </div>
