@@ -19,4 +19,4 @@
 - "When the stastic button is clicked, the stastic page will be displayed."
 - "When the deshborar button is clicked, the deshboard page will be displayed."
 - "when the view all button clicked the a new page will open and displayed product details"
-- "when the Add to card button clicked then card will added in the soping card
+- "when the Add to card button clicked then card will added in the shoping card .
