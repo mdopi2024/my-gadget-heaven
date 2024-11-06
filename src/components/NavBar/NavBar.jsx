@@ -1,15 +1,17 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import { FiShoppingCart } from "react-icons/fi";
 import { GiSelfLove } from "react-icons/gi";
 import { getCardToStorage, getWishList } from '../../Utilities/Utiliteis';
 
 const NavBar = () => {
+    const {pathname} = useLocation()
+    console.log(pathname)
 
     const getCard = getCardToStorage();
     const getWish = getWishList()
     return (
-        <div className="navbar bg-base-100 ">
+        <div className={`navbar bg-base-100 mb-0  ${pathname === '/'? 'bg-purple-500  rounded-xl':''}`}>
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
