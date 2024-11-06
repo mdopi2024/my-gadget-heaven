@@ -1,5 +1,6 @@
 #  Gadget Heaven
 ## Live website Linek : 
+- https://aesthetic-kleicha-9daa96.netlify.app
 
 ##  Requirement Document Link 
 - https://github.com/.../blob/main/Batch-10_Assignment-08.pdf
@@ -11,8 +12,8 @@
 - Link
 - Dynamic Data Load
 
-## handling and managing data :
-### Local storage
+## handling and managing data : (local storage)
+
 
 ##  5 features of your website/project 
 - "When the home button is clicked, the home page will be displayed."
