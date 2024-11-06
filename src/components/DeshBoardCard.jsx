@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getCardToStorage } from '../Utilities/Utiliteis';
 import ShowDeshBoardCard from './ShowDeshBoardCard';
+import { NavLink } from 'react-router-dom';
 
 const DeshBoardCard = () => {
     const card = getCardToStorage()
@@ -16,6 +17,10 @@ const DeshBoardCard = () => {
        const fixed = totalPrice.toFixed(2)
        setPrice(fixed)
     },cards)
+
+    const handleModal =()=>{
+      console.log('iam modal')
+    }
   
     return (
         <div className='my-6  flex flex-col gap-10'>
@@ -24,7 +29,7 @@ const DeshBoardCard = () => {
            <div className='flex justify-center items-center gap-3'>
             <h1 className='font-bold'>Total Price : {price}</h1>
            <button onClick={handleSort} className='border-2 border-purple-800 px-3 py-2 rounded-xl text-purple-800'>Sort by Price</button> 
-           <button className=' px-3 py-2 rounded-xl bg-purple-700 text-white'>Purchase</button> 
+           <button onClick={handleModal} className=' px-3 py-2 rounded-xl bg-purple-700 text-white'>Purchase</button>
            </div>
            </div>
          {

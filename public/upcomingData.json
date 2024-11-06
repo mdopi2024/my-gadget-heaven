@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Galaxy Ultra X Phone",
+      "category": "Phone",
+      "description": "A flagship smartphone with a stunning 6.9-inch OLED display, 108MP triple-camera system, and 5G connectivity. Powered by the latest processor for smooth performance.",
+      "img": "https://i.ibb.co/SJHtWLr/galaxy-s24-ultra-share-image.webp"
+    },
+    {
+      "id": 2,
+      "name": "ZenithBook Pro 16",
+      "category": "Laptop",
+      "description": "A powerful 16-inch laptop with a 4K OLED screen, Intel i9 processor, 32GB RAM, and 1TB SSD. Ideal for creative professionals and gamers who demand high performance.",
+      "img": "https://i.ibb.co/vDJD6s5/images.jpg"
+    },
+    {
+      "id": 3,
+      "name": "AeroBook Slim 14",
+      "category": "Laptop",
+      "description": "An ultra-slim, lightweight 14-inch laptop with a Full HD display, AMD Ryzen 7 processor, and all-day battery life. Perfect for productivity and portability.",
+      "img": "https://i.ibb.co/nPj9w7P/images-1.jpg"
+    }
+  ]
+  

@@ -9,6 +9,7 @@ import AllData from "../components/AllData";
 import Deatiles from "../components/Deatiles";
 import DeshBoardCard from "../components/DeshBoardCard";
 import Wishlist from "../components/Wishlist";
+import UpComing from "../pages/UpComing";
 
 
 
@@ -60,6 +61,12 @@ const router = createBrowserRouter([
             path:'/details/:id',
             element:<Deatiles></Deatiles>,
             loader:()=>fetch('/allData.json')
+        },
+        {
+            path:'upcoming',
+            element:<UpComing></UpComing>,
+            loader:()=>fetch('/upcomingData.json')
+            
         },
 
       ]
