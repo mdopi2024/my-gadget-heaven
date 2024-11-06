@@ -4,6 +4,7 @@ import { Link, useLoaderData, useParams } from 'react-router-dom';
 import { GiSelfLove } from "react-icons/gi";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { addWishlist, setCard } from '../Utilities/Utiliteis';
+import Healmate from './Healmate';
 
 const Deatiles = () => {
     const { id } = useParams()
@@ -26,7 +27,9 @@ const Deatiles = () => {
 
 
     return (
+        
         <div className='bg-[#9538E2] pb-56 md:pb-36 mb-[450px] md:mb-[350px] relative text-white text-center space-x-3'>
+            <Healmate title={'Details'}></Healmate>
 
 
             <div className='md:w-1/2 mx-auto px-5 mb-8'>
