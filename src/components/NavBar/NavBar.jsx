@@ -2,10 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FiShoppingCart } from "react-icons/fi";
 import { GiSelfLove } from "react-icons/gi";
+import { getCardToStorage, getWishList } from '../../Utilities/Utiliteis';
 
 const NavBar = () => {
 
-
+    const getCard = getCardToStorage();
+    const getWish = getWishList()
     return (
         <div className="navbar bg-base-100 ">
             <div className="navbar-start">
@@ -47,11 +49,11 @@ const NavBar = () => {
             <div className="navbar-end flex gap-3">
                <div className='relative  border p-2 rounded-full'>
                 <FiShoppingCart className='text-xl'></FiShoppingCart>
-                <span className='absolute -top-2 -right-2  text-yellow-500'>0</span>
+                <span className='absolute -top-2 -right-2  text-yellow-500'>{getCard.length}</span>
                </div>
                <div className='relative border p-2 rounded-full'>
                 <GiSelfLove className='text-xl'></GiSelfLove>
-                <span className='absolute -top-2 -right-2  text-yellow-500'> 0</span>
+                <span className='absolute -top-2 -right-2  text-yellow-500'> {getWish.length}</span>
                 </div>
             </div>
         </div>

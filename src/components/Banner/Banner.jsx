@@ -3,6 +3,7 @@ import img from '../../assets/banner.jpg'
 import { Link } from 'react-router-dom';
 
 const Banner = () => {
+    
     return (
         <div className='bg-[#9538E2] text-center mb-48 pb-56 rounded-xl relative border   flex flex-col justify-center items-center'>
          <div className='md:w-3/4  p-10  mx-auto text-white space-y-4 '>

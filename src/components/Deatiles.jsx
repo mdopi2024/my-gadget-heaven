@@ -3,6 +3,7 @@ import { Link, useLoaderData, useParams } from 'react-router-dom';
 
 import { GiSelfLove } from "react-icons/gi";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { addWishlist, setCard } from '../Utilities/Utiliteis';
 
 const Deatiles = () => {
     const { id } = useParams()
@@ -14,6 +15,14 @@ const Deatiles = () => {
     }, [])
     const { product_title, img, price, rating, availability, description, Specification } = singleCard
 
+
+    const handleCard = ()=>{
+        setCard(singleCard)
+    }
+    
+    const handleWish = ()=>{
+        addWishlist(singleCard)
+    }
 
 
     return (
@@ -48,8 +57,8 @@ const Deatiles = () => {
 
                         <p>Rating : {rating}</p>
                         <div className='flex items-center gap-6'>
-                            <button className='bg-[#9538E2] px-2 mb-3 py-2 rounded-xl text-white flex items-center gap-3'>Add to Card <MdOutlineShoppingCart></MdOutlineShoppingCart></button>
-                            <button className='text-3xl p-2 rounded-full flex justify-center items-center hover:border-2'><GiSelfLove ></GiSelfLove></button>
+                            <button onClick={handleCard} className='bg-[#9538E2] px-2 mb-3 py-2 rounded-xl text-white flex items-center gap-3'>Add to Card <MdOutlineShoppingCart></MdOutlineShoppingCart></button>
+                            <button onClick={handleWish} className='text-3xl p-2 rounded-full flex justify-center items-center hover:border-2'><GiSelfLove ></GiSelfLove></button>
                         </div>
                     </div>
 

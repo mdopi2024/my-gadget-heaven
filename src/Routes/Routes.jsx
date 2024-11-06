@@ -7,6 +7,9 @@ import DeshBoard from "../pages/DeshBoard";
 import Dynamic from "../components/Dynamic";
 import AllData from "../components/AllData";
 import Deatiles from "../components/Deatiles";
+import DeshBoardCard from "../components/DeshBoardCard";
+import Wishlist from "../components/Wishlist";
+
 
 
 
@@ -40,7 +43,18 @@ const router = createBrowserRouter([
         },
         {
             path:'/deshboard',
-            element:<DeshBoard></DeshBoard>
+            element:<DeshBoard></DeshBoard>,
+            children:[
+              {
+                path:'',
+                element:<DeshBoardCard></DeshBoardCard>
+              },
+              {
+                path:'wishlist',
+                element:<Wishlist></Wishlist>
+              }
+            ]
+          
         },
         {
             path:'/details/:id',
