@@ -3,7 +3,7 @@
 - https://aesthetic-kleicha-9daa96.netlify.app
 
 ##  Requirement Document Link 
-- https://github.com/.../blob/main/Batch-10_Assignment-08.pdf
+- https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf?fbclid=IwY2xjawGYS8dleHRuA2FlbQIxMAABHYMVD5TOPteLsEm9kzTnYB-lMS17vwfcsCludLHP5XE9dFjbD9VxJ8R9ug_aem_PnF8iYapDETEeIyjq2bxfg
 
 ## React Fundamental concepts used in the project
 - uesLoaderData()
